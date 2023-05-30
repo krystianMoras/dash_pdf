@@ -1,0 +1,51 @@
+{
+  "src/lib/components/DashPdfDocument.react.js": {
+    "description": "",
+    "displayName": "DashPdfDocument",
+    "methods": [],
+    "props": {
+      "file": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "File to be displayed, url or base64 string"
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks"
+      },
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Children of DashPdfDocument, list of DashPdfPage or other components"
+      }
+    }
+  },
+  "src/lib/components/DashPdfPage.react.js": {
+    "description": "",
+    "displayName": "DashPdfPage",
+    "methods": [],
+    "props": {
+      "pageNumber": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Page number to be displayed"
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Width of the page"
+      }
+    }
+  }
+}
